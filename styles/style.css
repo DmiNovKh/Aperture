@@ -2,13 +2,17 @@
     padding: 0;
     margin: 0;
 }
-.prop {
+
+.mn_hdr {
     background-color: #181818;
     max-width: 1440px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center; padding: 24px;
+}
+.hed_log {
+    margin-left: 152px;
 }
 header nav ul {
     display: flex; list-style: none;
