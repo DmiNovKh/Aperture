@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.prop {
+    background-color: #181818;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; padding: 24px;
+}
+header nav ul {
+    display: flex; list-style: none;
+}
