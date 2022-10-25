@@ -17,3 +17,94 @@
 header nav ul {
     display: flex; list-style: none;
 }
+header nav li:first-of-type a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+    color: #FFFFFF; text-decoration: none;
+}
+header nav li:nth-child(2) {
+    margin-left: 56px;
+}
+header nav li:nth-child(2) a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF; text-decoration: none;
+}
+header nav li:nth-child(3), header nav li:nth-child(4) {
+    margin-left: 32px
+}
+header nav li:nth-child(3) a, header nav li:nth-child(4) a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+    color: #FFFFFF;text-decoration: none;
+}
+header nav li:last-of-type {
+    margin-left: 51px;
+}
+header nav li:last-of-type a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.4px;
+    color: #000000; padding: 9px 20px 13px 20px;
+    border-radius: 14px;
+    margin-right: 140px; text-decoration: none;
+    background-color: #FFFFFF
+}
+main section {
+    background-image: url('../images/Background Ape1.jpg'); background-size: cover; height: 100vh;
+    display: flex; justify-content: center; align-items: flex-end;
+}
+.mn_secdv{
+    max-width: 588px; text-align: center; color: #FFFFFF;
+}
+main section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+
+}
+main section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    /* identical to box height, or 110% */
+    text-align: center;
+    color: #FFFFFF;
+}
+.secP {
+    padding-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    text-align: center;
+    color: #C0C0C0;
+
+}
