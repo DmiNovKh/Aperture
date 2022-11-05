@@ -3,16 +3,16 @@
     margin: 0;
 }
 
-.mn_hdr {
+header {
     background-color: #181818;
     max-width: 1440px;
     margin: auto;
+    padding: 24px;
+}
+.h_flex {
     display: flex;
     justify-content: space-between;
-    align-items: center; padding: 24px;
-    width: 100%;
-    position: fixed;
-    box-sizing: border-box;
+    align-items: center;
 }
 .hed_log {
     margin-left: 152px;
@@ -20,41 +20,24 @@
 header nav ul {
     display: flex; list-style: none;
 }
-header nav li:first-of-type a {
+header nav li a:first-of-type {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
-    /* identical to box height, or 154% */
     color: #FFFFFF; text-decoration: none;
+    padding-right: 32px;
 }
-header nav li:nth-child(2) {
-    margin-left: 56px;
-}
-header nav li:nth-child(2) a {
+
+header nav li a:nth-child(2), header nav li a:nth-child(3), header nav li a:nth-child(4) {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    /* identical to box height, or 133% */
-    color: #FFFFFF; text-decoration: none;
-}
-header nav li:nth-child(3), header nav li:nth-child(4) {
-    margin-left: 32px
-}
-header nav li:nth-child(3) a, header nav li:nth-child(4) a {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 133% */
-    color: #FFFFFF;text-decoration: none;
-}
-header nav li:last-of-type {
-    margin-left: 51px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 header nav li:last-of-type a {
     font-family: 'Poppins', sans-serif;
@@ -62,22 +45,55 @@ header nav li:last-of-type a {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height, or 125% */
     letter-spacing: 0.4px;
     color: #000000; padding: 9px 20px 13px 20px;
     border-radius: 14px;
     margin-right: 140px; text-decoration: none;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 main section {
-    background-image: url('../images/Background Ape1.jpg');
+    background-image: url('../images/plato.jpg');
     background-size: cover;
-    height: calc(100vh - 83px);
+    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
     width: 100%;
+    justify-content: center;
     position: relative;
+}
+.mn_sec_att{
+    max-width: 588px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 466px;
+    padding-bottom: 71px;
+}
+main section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+main section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+main .mn_sec_att p {
+    padding-top: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+
 }
 .fix_location {
     position: absolute;
@@ -104,54 +120,40 @@ main section {
     width: 16px;
     height: 16px;
     margin-right: 6px;
-    background-image: url("..images/icon_1.svg");
+    background-image: url("../images/icon_1.svg");
 }
-.fix_location li:before:nth-child(2) {
-    background-image: url("..images/icon_2.svg");
+.fix_location li:nth-child(2) {
+    background-image: url("../images/icon_2.svg");
 }
-.fix_location li:before:nth-child(3) {
-    background-image: url("..images/icon_3.svg");
+.fix_location li:nth-child(3) {
+    background-image: url("../images/icon_3.svg");
     width: 32px;
 }
-.fix_location li:before:last-of-type {
-    width: 18px;
-    background-image: url("..images/icon_4.svg");
+.fix_location li:last-of-type {
+    background-image: url("../images/icon_4.svg");
+    width: 10px;
 }
-.mn_secdv{
-    max-width: 588px; text-align: center; color: #FFFFFF;
+.the_hill {
+    background-image: url("../images/fuji.jpg");
+    background-size: cover;
+    min-height: 600px;
+    position: relative;
+    justify-content: right;
+    align-items: center;
 }
-main section h2 {
-    font-family: 'Poppins', sans-serif;
+.div_loc {
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    /* identical to box height, or 143% */
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: #C0C0C0;
+}
+.the_hill .div_loc {
+    max-width: 298px;
+    margin-right: 62px;
+}
+.the_hill .div_loc h4 {
+  text-transform: uppercase;
+}
 
-}
-main section h1 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 54px;
-    line-height: 59px;
-    /* identical to box height, or 110% */
-    text-align: center;
-    color: #FFFFFF;
-}
-.secP {
-    padding-top: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-    text-align: center;
-    color: #C0C0C0;
-
-}
