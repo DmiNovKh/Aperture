@@ -10,6 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center; padding: 24px;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
 }
 .hed_log {
     margin-left: 152px;
@@ -67,8 +70,52 @@ header nav li:last-of-type a {
     background-color: #FFFFFF
 }
 main section {
-    background-image: url('../images/Background Ape1.jpg'); background-size: cover; height: 100vh;
-    display: flex; justify-content: center; align-items: flex-end;
+    background-image: url('../images/Background Ape1.jpg');
+    background-size: cover;
+    height: calc(100vh - 83px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+}
+.fix_location {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.fix_location li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+.fix_location li:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    background-image: url("..images/icon_1.svg");
+}
+.fix_location li:before:nth-child(2) {
+    background-image: url("..images/icon_2.svg");
+}
+.fix_location li:before:nth-child(3) {
+    background-image: url("..images/icon_3.svg");
+    width: 32px;
+}
+.fix_location li:before:last-of-type {
+    width: 18px;
+    background-image: url("..images/icon_4.svg");
 }
 .mn_secdv{
     max-width: 588px; text-align: center; color: #FFFFFF;
