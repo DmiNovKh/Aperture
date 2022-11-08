@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
 
 </head>
 <body>
 <header>
 <div class="h_flex">
-    <a href="#" class="hed_log">
+    <a href="#">
         <img src="images/logo.svg" alt="logo">
     </a>
     <nav>
@@ -40,7 +41,7 @@
 </div>
 </header>
 <main>
-    <section>
+    <section class="aper_stud">
         <div class="mn_sec_att">
             <h2>
                 Photographer & Filmmaker
@@ -63,62 +64,88 @@
             <li>Iceland</li>
         </ul>
     </section>
-    <section class="the_hill">
-        <div class="div_loc">
+    <section class="simple_sec_fuji">
+        <div class="div_loc fuji">
             <h4>Sunset at Mount Fuji</h4>
             <p>
                 Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.
             </p>
         </div>
         <ul class="fix_location">
-            <li>1/2000s</li>
-            <li>f/11</li>
-            <li>100</li>
-            <li>Iceland</li>
+            <li>1''</li>
+            <li>f/16</li>
+            <li>400</li>
+            <li>Japan</li>
         </ul>
     </section>
+    </section>
+    <section class="simple_sec_leaf">
+        <div class="div_loc leaf">
+            <h4>Monstera Leafs</h4>
+            <p>
+                Vestibulum sit amet urna turpis. Mauris euismod elit
+                et nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+        </div>
+        <ul class="fix_location">
+            <li>1/400s</li>
+            <li>f/3,5</li>
+            <li>100</li>
+            <li>Costa Rica</li>
+        </ul>
+    </section>
+    <section class="past_cli">
+        <div>
+            <h4>Past clients</h4>
+            <p>Trusted by your favourite companies</p>
+        </div>
+        <div class="h_flex">
+            <a href="#">
+                <img src="images/logo_HillHayes.svg" alt="hill">
+            </a>
+            <a href="#">
+                <img src="images/logo_riksgransen.svg" alt="rik">
+            </a>
+            <a href="#">
+                <img src="images/logo_StudioCai.svg" alt="cai">
+            </a>
+            <a href="#">
+                <img src="images/logo_ChillIndustries.svg" alt="chill">
+            </a>
+            <a href="#">
+                <img src="images/logo_stockholm.svg" alt="stock">
+            </a>
+
+        </div>
+    </section>
+    <section class="simple_sec_himal">
+        <div class="div_loc himal">
+            <h4>Star fall in the Himalayas</h4>
+            <p>
+                Nulla rhoncus feugiat eros quis consectetur.
+                Morbi neque ex, condimentum dapibus congue et,
+                vulputate ut ligula.
+            </p>
+        </div>
+        <ul class="fix_location">
+            <li>6''</li>
+            <li>f/11</li>
+            <li>800</li>
+            <li>Nepal</li>
+        </ul>
+    </section>
+    <section class="pho_vid">
+        <div class="pho_vid_text">
+            <h4>
+                Need help with photography or videography?
+            </h4>
+            <p>
+                We're here for you!
+            </p>
+            <a href="#" class="get_in">Get in touch</a>
+        </div>
+
+    </section>
 </main>
-
-<form name="contact_form" action="" method="post">
-    <div style="max-width: 564px">
-        <label for="first_name" style="display: block">First name</label>
-        <input type="text" name="first_name" placeholder="First name" id="first_name" style="width: 100%; box-sizing: border-box">
-    </div>
-    <div>
-        <label>
-            <input type="checkbox" name="i_agree" checked>
-            I Agree
-        </label>
-    </div>
-    <div>
-        <h3>Gender</h3>
-        <label>
-            <input type="radio" name="gender" value="man">
-            Man
-        </label>
-        <label>
-            <input type="radio" name="gender" value="Woman">
-            WoMan
-        </label>
-        <label>
-            <input type="radio" name="gender" value="Other">
-            Other
-        </label>
-    </div>
-    <label for="comment" style="display: block" Message>
-        <textarea name="message" id="comment" style="height: 150px; resize: none;"></textarea>
-    </label>
-    <div>
-        <label for="city" style="display: block">City</label>
-        <select name="city" id="city">
-            <option value="Kharkiv"></option>
-            <option value="Kiev"></option>
-            <option value="Lviv"></option>
-        </select>
-    </div>
-    <button type="reset">Clear</button>
-    <button type="submit">send</button>
-</form>
-
 </body>
 </html>
