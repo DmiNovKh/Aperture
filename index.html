@@ -9,39 +9,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/owl.carousel.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/media.css">
 
+
 </head>
 <body>
-<header>
-<div class="h_flex">
-    <a href="#">
-        <img src="images/logo.svg" alt="logo">
+<header class="cd-header">
+    <div class="container">
+    <a href="#0" class=""><img src="images/logo.svg" alt="logo">
     </a>
-    <nav>
-        <ul>
-            <li>
+    <a href="#0" class="cd-3d-nav-trigger">
+        <span></span>
+    </a>
+    <nav class="cd-3d-nav-container">
+        <ul class="cd-3d-nav">
+            <li class="cd-selected">
                 <a href="#">Business area</a>
             </li>
+
             <li>
-                <a href="#" style="">Business images</a>
+                <a href="#0">Business images</a>
             </li>
+
             <li>
-                <a href="#" style=" ">Gear cage</a>
+                <a href="#0">Gear cage</a>
             </li>
+
             <li>
                 <a href="#">Contact</a>
             </li>
+
             <li>
                 <a href="#">Get template</a>
             </li>
         </ul>
+        <span class="cd-marker color-1"></span>
     </nav>
-</div>
+    </div>
 </header>
+<!--<header>-->
+<!--<div class="h_flex">-->
+<!--    <a href="#">-->
+<!--        <img src="images/logo.svg" alt="logo">-->
+<!--    </a>-->
+<!--    <nav>-->
+<!--        <ul>-->
+<!--            <li>-->
+<!--                <a href="#">Business area</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#" style="">Business images</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#" style=" ">Gear cage</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#">Contact</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#">Get template</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+<!--</div>-->
+<!--</header>-->
 <main>
-    <section class="aper_stud">
+    <section class="ap_stud">
         <div class="mn_sec_att">
             <h2>
                 Photographer & Filmmaker
@@ -95,28 +134,40 @@
         </ul>
     </section>
     <section class="past_cli">
-        <div>
             <h4>Past clients</h4>
             <p>Trusted by your favourite companies</p>
-        </div>
-        <div class="h_flex">
-            <a href="#">
-                <img src="images/logo_HillHayes.svg" alt="hill">
-            </a>
-            <a href="#">
-                <img src="images/logo_riksgransen.svg" alt="rik">
-            </a>
-            <a href="#">
-                <img src="images/logo_StudioCai.svg" alt="cai">
-            </a>
-            <a href="#">
-                <img src="images/logo_ChillIndustries.svg" alt="chill">
-            </a>
-            <a href="#">
-                <img src="images/logo_stockholm.svg" alt="stock">
-            </a>
-
-        </div>
+            <div class="h_flex owl-carousel past_cli_box">
+                <a href="#">
+                    <img src="images/logo_HillHayes.svg" alt="hill">
+                </a>
+                <a href="#">
+                    <img src="images/logo_riksgransen.svg" alt="rik">
+                </a>
+                <a href="#">
+                    <img src="images/logo_StudioCai.svg" alt="cai">
+                </a>
+                <a href="#">
+                    <img src="images/logo_ChillIndustries.svg" alt="chill">
+                </a>
+                <a href="#">
+                    <img src="images/logo_stockholm.svg" alt="stock">
+                </a>
+                <a href="#">
+                    <img src="images/logo_HillHayes.svg" alt="hill">
+                </a>
+                <a href="#">
+                    <img src="images/logo_riksgransen.svg" alt="rik">
+                </a>
+                <a href="#">
+                    <img src="images/logo_StudioCai.svg" alt="cai">
+                </a>
+                <a href="#">
+                    <img src="images/logo_ChillIndustries.svg" alt="chill">
+                </a>
+                <a href="#">
+                    <img src="images/logo_stockholm.svg" alt="stock">
+                </a>
+            </div>
     </section>
     <section class="simple_sec_himal">
         <div class="div_loc himal">
@@ -144,8 +195,76 @@
             </p>
             <a href="#" class="get_in">Get in touch</a>
         </div>
+    </section>
 
+    <section class="faq">
+        <div class="container">
+        <div class="text">
+            <h3>Frequency asked<br> question</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                A aperiam, consequuntur et ex facilis fugit libero molestiae
+                neque nobis numquam officiis quae quia quibusdam quisquam ratione repudiandae
+                sed similique velit!
+            </p>
+        </div>
+        <div class="accordion" id="accordion">
+                <h3>Section 1</h3>
+                <div>
+                    <p>
+                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                    </p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                    <p>
+                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                        suscipit faucibus urna.
+                    </p>
+                </div>
+                <h3>Section 3</h3>
+                <div>
+                    <p>
+                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                    </p>
+                    <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                    </ul>
+                </div>
+                <h3>Section 4</h3>
+                <div>
+                    <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                    </p>
+                    <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                    </p>
+                </div>
+        </div>
+        </div>
     </section>
 </main>
+<footer>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="https://kit.fontawesome.com/c090ec296e.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
