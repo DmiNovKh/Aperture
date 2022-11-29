@@ -4,8 +4,19 @@
 
     .owl-carousel .owl-nav button.owl-next:before {
         right: 0;}
-
-    header .container {
+    }
+.t_tools .bg_tools {
+    position: relative;
+    width: 100%;
+}
+.t_gear {
+    margin: auto ;
+}
+.what_we_do .h_flex {
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+    header .head_container {
         flex-direction: column;}
     header nav li:first-of-type a {
         padding-right: 0px;}
@@ -15,7 +26,8 @@
             font-size: 15px;
             letter-spacing: 0.2px;
             padding: 4px 10px 4px 10px;
-            border-radius: 14px;}
+            border-radius: 14px;
+        }
     }
     @media screen and (max-width: 768px) {
         .cd-3d-nav-trigger {
@@ -60,10 +72,11 @@
             transition: transform 0.5s 0s, visibility 0.5s 0s;
         }
         .cd-3d-nav-trigger {
-            position: relative;
-            float: right;
+            position: absolute;
             height: 45px;
             width: 45px;
+            right: 5%;
+            top: 17%;
             /* replace text with background image */
             overflow: hidden;
             text-indent: 100%;
@@ -339,7 +352,6 @@
             letter-spacing: 0.1px;
             font-size: 10px;
             color: #ffffff;
-            text-decoration: none;
             background-color: transparent;
         }
 
@@ -372,7 +384,6 @@
             margin-right: 15px;
         }
     }
-}
 
 
 
